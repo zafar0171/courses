@@ -1,0 +1,46 @@
+examples:
+
+^-?\d*(\.\d+)?$
+^/(.+)/([^/]+)/$
+r"^(\w*), (\w*)$"
+"^([\w \.-]*), ([\w \.-]*)$"
+
+
+[abc] -- a single char of a,b, or c
+[^abc] -- a character edxecpt a, b ,c
+[a-z] -- a character in the range a - z.
+[^a-z] -- a charcater not in the range.
+[a-zA-Z]  -- a character in range a-z, or A-Z.
+.       --  any single character.
+
+a|b -- alternate match, either a or b.
+\s --any whitespace character.
+\S -- any Non-white space character.  
+\d -- any digit. 
+\D -- any Non-digit. 
+\w -- any word character.
+\W -- Any Non -word character ..\
+
+
+(?:...) -- Non-capturing group.
+ (...)  -- capturing group.
+ a? -- zero or one of a. 
+ a* -- zero or more of a.
+ a+ -- one or more of a. 
+
+ a{3} -- exactly 3 of
+ a{3,} -- 3 or more of  a.
+a{3,6} -- between 3 and 6 of a.
+
+^ -- start of string
+$ --  end of string
+
+\b -- A word boundary
+\B --Non word boundary
+
+
+
+\n -- new line
+\t -- tab
+\r -- carriage return
+\0 -- Null character
