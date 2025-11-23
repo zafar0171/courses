@@ -1,0 +1,34 @@
+
+### 
+
+click  --- for building CLI tools
+argparse  --- 
+
+regex   --- primaly used for text filtering and Text analysis
+os      --- To play around with , file reading and writing , managing files and folders.
+csv     --- csv module to store and retriev data .
+
+
+Locust -for load testing
+
+
+
+unittest --- 
+pytest   --- for code testing 
+
+
+
+
+Kubernetes
+Docker
+
+
+
+snowflake -  for big data storage and processing
+apachespark -  for big data processing
+MlFlow - for model version tracking
+
+
+
+fastapi
+flask
