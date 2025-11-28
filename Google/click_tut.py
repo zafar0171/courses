@@ -18,5 +18,26 @@ def hello(count, name):
 
 
 
+
+
+class car:
+    def __init__(self,speed, grade):
+        self.speed = speed
+        self.grade = grade
+
+    def acc():
+        return  "car  has {self.speed} and belongs to this {self.grade} grade"
+    
+
+
+class sedan(car):
+    pass
+
+
+
+
 if __name__ == "__main__":
     hello()
+
+
+
