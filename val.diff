@@ -1,0 +1,13 @@
+diff --git a/Google/click_tut.py b/Google/click_tut.py
+index 2fbee61..cf99241 100644
+--- a/Google/click_tut.py
++++ b/Google/click_tut.py
+@@ -8,7 +8,7 @@ import click
+ 
+ @click.command()
+ @click.option('--count',default =1, help = "Number of Greetings")
+-@click.option('--name', prompt = "your name", help = "the person to greet")
++@click.option('--name', default ="zafar",prompt = "your name", help = "the person to greet")
+ 
+ 
+ def hello(count, name):
