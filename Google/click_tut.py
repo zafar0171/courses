@@ -8,7 +8,7 @@ import click
 
 @click.command()
 @click.option('--count',default =1, help = "Number of Greetings")
-@click.option('--name', prompt = "your name", help = "the person to greet")
+@click.option('--name', default ="zafar",prompt = "your name", help = "the person to greet")
 
 
 def hello(count, name):
